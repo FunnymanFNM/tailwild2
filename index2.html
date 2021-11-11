@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compshop</title>
+    <link rel="stylesheet" href="./styles/tailwind.css">
+    <link
+  href="https://cdn.jsdelivr.net/npm/@tailwindcss/custom-forms@0.2.1/dist/custom-forms.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+     <!-- ნოუთბუქები პროდუქტების lane -->
+    <div class="px-40">
+        <div class="flex flex-row justify-between">
+            <h2 class="text-3xl">ნოუთბუქები </h2>
+            <a href="#" class="text-xl flex flex-row">
+                  ნახეთ ყველა
+                  <!-- ისარი -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /> 
+                  </svg> </a>
+         </div>
+
+         <div class="grid grid-rows-3 grid-flow-col gap-4 "> <!-- checkbox --> 
+            <div class="row-span-3 bg-white-100"> 
+                 <div class="block ">  
+                <p class="text-gray-700 ml-5 text-3xl">მწარმოებელი</p>
+                <div class="mt-2 ml-5">
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">Acer </span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" />
+                      <span class="ml-2">Asus</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" />
+                      <span class="ml-2">Dell</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">Lenovo</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">HP</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">Firo</span>
+                    </label>                  
+                  </div>
+                   
+                  <span class="text-gray-700">გაფართოება</span>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">1366 x 768</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">1920 x 1080 </span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">1920 x 1200</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">2256 x 1504</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">2560 x 1600</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">3840 x 2160 </span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">3840 x 2400</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">2880x1800</span>
+                    </label>
+                  </div>
+                  <span class="text-gray-700">პროცესორი</span>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">Intel Core i3</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">Intel Core i5  </span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">Intel Core i7</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">AMD Ryzen 3 </span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">AMD Ryzen 5</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">AMD Ryzen 7 </span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">Intel Core i9</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input type="checkbox" class="form-checkbox" checked />
+                      <span class="ml-2">AMD Ryzen 9</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div> 
+             <!-- checkbox div-->
+            <div class="col-span-2">  </div>   <!--Product name -->
+            <div class="row-span-3 col-span-2"> <!-- Product list div -->
+                <div class="grid drid-flow-row grid-cols-3 gap-10">
+
+                        </div>
+                    </div>
+                    <div class="shadow-lg">
+                        <img src="./images/lap3.png" alt=""> <!-- laptop 3 -->
+                        <div class="p-5">
+                            <h3><a href="#"> Lenovo v999 </a></h3> <br> 
+                            <h3><a href="#"> ფასი  - 999  </a></h3> <br> 
+                        </div>
+                        <div class="flex flex-row justify-between ">
+                            <a href="" class="mb-10  bg-gradient-to-r from-red-700 to-pink-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-pink-600 hover:to-red-600 "> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                  </svg>
+                                კალათაში დამატება 
+                            </a>
+                            <a href="" class="mb-10 bg-gradient-to-r from-purple-800 to-purple-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-purple-500 hover:to-purple-700"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                  </svg>
+                                 დეტალები
+                            </a>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="shadow-lg">
+                        <img src="./images/lap4.png" alt=""> <!-- laptop 1 -->
+                        <div class="p-5">
+                            <h3><a href="#"> Lenovo v999 </a></h3> <br> 
+                            <h3><a href="#"> ფასი  - 999  </a></h3> <br> 
+                        </div>
+                        <div class="flex flex-row justify-between ">
+                            <a href="" class="bg-gradient-to-r from-red-700 to-pink-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-pink-600 hover:to-red-600"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                  </svg>
+                                კალათაში დამატება 
+                            </a>
+                            <a href="" class="bg-gradient-to-r from-purple-800 to-purple-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-purple-500 hover:to-purple-700"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                  </svg>
+                                 დეტალები
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="shadow-lg">
+                        <img src="./images/lap6.png" alt=""> <!-- laptop 1 -->
+                        <div class="p-5">
+                            <h3><a href="#"> Lenovo v999 </a></h3> <br> 
+                            <h3><a href="#"> ფასი  - 999  </a></h3> <br> 
+                        </div>
+                        <div class="flex flex-row justify-between ">
+                            <a href="" class="bg-gradient-to-r from-red-700 to-pink-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-pink-600 hover:to-red-600"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                  </svg>
+                                კალათაში დამატება 
+                            </a>
+                            <a href="" class="bg-gradient-to-r from-purple-800 to-purple-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-purple-500 hover:to-purple-700"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                  </svg>
+                                 დეტალები
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="shadow-lg">
+                        <img src="./images/lap2.png" alt=""> <!-- laptop 1 -->
+                        <div class="p-5">
+                            <h3><a href="#"> Lenovo v999 </a></h3> <br> 
+                            <h3><a href="#"> ფასი  - 999  </a></h3> <br> 
+                        </div>
+                        <div class="flex flex-row justify-between ">
+                            <a href="" class="bg-gradient-to-r from-red-700 to-pink-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-pink-600 hover:to-red-600"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                  </svg>
+                                კალათაში დამატება 
+                            </a>
+                            <a href="" class="bg-gradient-to-r from-purple-800 to-purple-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-purple-500 hover:to-purple-700"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                  </svg>
+                                 დეტალები
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="shadow-lg">
+                        <img src="./images/lap3.png" alt=""> <!-- laptop 1 -->
+                        <div class="p-5">
+                            <h3><a href="#"> Lenovo v999 </a></h3> <br> 
+                            <h3><a href="#"> ფასი  - 999  </a></h3> <br> 
+                        </div>
+                        <div class="flex flex-row justify-between ">
+                            <a href="" class="bg-gradient-to-r from-red-700 to-pink-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-pink-600 hover:to-red-600"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                  </svg>
+                                კალათაში დამატება 
+                            </a>
+                            <a href="" class="bg-gradient-to-r from-purple-800 to-purple-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-purple-500 hover:to-purple-700"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                  </svg>
+                                 დეტალები
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="shadow-lg">
+                        <img src="./images/lap4.png" alt=""> <!-- laptop 1 -->
+                        <div class="p-5">
+                            <h3><a href="#"> Lenovo v999 </a></h3> <br> 
+                            <h3><a href="#"> ფასი  - 999  </a></h3> <br> 
+                        </div>
+                        <div class="flex flex-row justify-between ">
+                            <a href="" class="bg-gradient-to-r from-red-700 to-pink-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-pink-600 hover:to-red-600"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                  </svg>
+                                კალათაში დამატება 
+                            </a>
+                            <a href="" class="bg-gradient-to-r from-purple-800 to-purple-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-purple-500 hover:to-purple-700"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                  </svg>
+                                 დეტალები
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="shadow-lg">
+                        <img src="./images/lap1.png" alt=""> <!-- laptop 1 -->
+                        <div class="p-5">
+                            <h3><a href="#"> Lenovo v999 </a></h3> <br> 
+                            <h3><a href="#"> ფასი  - 999  </a></h3> <br> 
+                        </div>
+                        <div class="flex flex-row justify-between ">
+                            <a href="" class="bg-gradient-to-r from-red-700 to-pink-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-pink-600 hover:to-red-600"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                  </svg>
+                                კალათაში დამატება 
+                            </a>
+                            <a href="" class="bg-gradient-to-r from-purple-800 to-purple-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-purple-500 hover:to-purple-700"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                  </svg>
+                                 დეტალები
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="shadow-lg">
+                        <img src="./images/lap1.png" alt=""> <!-- laptop 1 -->
+                        <div class="p-5">
+                            <h3><a href="#"> Lenovo v999 </a></h3> <br> 
+                            <h3><a href="#"> ფასი  - 999  </a></h3> <br> 
+                        </div>
+                        <div class="flex flex-row justify-between ">
+                            <a href="" class="bg-gradient-to-r from-red-700 to-pink-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-pink-600 hover:to-red-600"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                  </svg>
+                                კალათაში დამატება 
+                            </a>
+                            <a href="" class="bg-gradient-to-r from-purple-800 to-purple-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-purple-500 hover:to-purple-700"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                  </svg>
+                                 დეტალები
+                            </a>
+                            
+                        </div>
+                    </div>
+                                        <div class="shadow-lg">
+                        <img src="./images/lap1.png" alt=""> <!-- laptop 1 -->
+                        <div class="p-5">
+                            <h3><a href="#"> Lenovo v999 </a></h3> <br> 
+                            <h3><a href="#"> ფასი  - 999  </a></h3> <br> 
+                        </div>
+                        <div class="flex flex-row justify-between ">
+                            <a href="" class="bg-gradient-to-r from-red-700 to-pink-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-pink-600 hover:to-red-600"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                  </svg>
+                                კალათაში დამატება 
+                            </a>
+                            <a href="" class="bg-gradient-to-r from-purple-800 to-purple-500 rounded-full py-2 px-4 text-white flex flex-row hover:from-purple-500 hover:to-purple-700"> <!--კალათის აიკონი-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                  </svg>
+                                 დეტალები
+                            </a>
+                            
+                        </div>
+                    </div>
+                    </div>
+                    
+            </div>
+            
+
+
+        </div>
+
+
+
+        </div>
+
+    </div>
+</body>
+</html>
